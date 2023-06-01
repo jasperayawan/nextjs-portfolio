@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.__txtnm{
+    @apply text-zinc-900 font-bold;
+}
+.__prgrp{
+    @apply text-zinc-500 font-semibold;
+}
