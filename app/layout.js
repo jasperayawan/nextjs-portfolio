@@ -1,6 +1,7 @@
 import '@styles/globals.css'
 import Nav from '@components/Nav';
 import Head from 'next/head'
+import Footer from '@components/Footer';
 
 export const metadata = {
   title: 'Jasper Ayawan - Software Engineer',
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <main className='app'>
           <Nav />
           {children}
+          <Footer/>
         </main>
       </body>
     </html>

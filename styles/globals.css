@@ -15,3 +15,6 @@
 .dropdown_link {
   @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
 }
+.__title{
+    @apply text-3xl font-bold;
+}
