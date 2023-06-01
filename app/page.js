@@ -1,3 +1,4 @@
+import { AiFillFacebook, AiFillInstagram, AiFillGithub } from 'react-icons/ai'
 
 export default function Home(){
   return(
@@ -8,6 +9,11 @@ export default function Home(){
           passion for crafting intuitive and visually appealing user interfaces. 
           Through this portfolio, I invite you to delve into my journey, projects,
            and expertise in the world of UI development.</p>
+          <div className='flex gap-4'>
+            <AiFillFacebook className='text-2xl'/>
+            <AiFillInstagram className='text-2xl'/>
+            <AiFillGithub className='text-2xl'/>
+          </div>
       </section>
     </main>
   )
