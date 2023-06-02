@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Project(){
     return(
@@ -15,15 +16,15 @@ export default function Project(){
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300'>
-                        <div>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                        <Link href='https://jasperayawan.github.io/eLTECH/'>
                             <Image 
                                 src='/assets/images/eltech.png'
                                 alt='E-Learning website'
                                 width={400}
                                 height={200}
                             />
-                        </div>
+                        </Link>
                         <div className='p-2'>
                         <h2>E-Learning Tech</h2>
                         <p className='text-zinc-400'>Create an eLearning website for society to maintain their education 
@@ -31,15 +32,15 @@ export default function Project(){
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300'>
-                        <div>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                        <Link href='https://instagram-clone-byjasper.netlify.app/'>
                             <Image 
                                 src='/assets/images/insta.png'
                                 alt='E-Learning website'
                                 width={400}
                                 height={200}
                             />
-                        </div>
+                        </Link>
                         <div className='p-2'>
                         <h2>Instagram UI clone</h2>
                         <p className='text-zinc-400'> 
@@ -48,15 +49,15 @@ export default function Project(){
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300'>
-                        <div>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                        <Link href='https://jasperayawan.github.io/miniP2/'>
                             <Image 
                                 src='/assets/images/harvesthub.png'
                                 alt='E-Learning website'
                                 width={400}
                                 height={200}
                             />
-                        </div>
+                        </Link>
                         <div className='p-2'>
                         <h2>Harvest Hub</h2>
                         <p className='text-zinc-400'>To provide an online platform for farmers to sell their products directly to consumers</p>
