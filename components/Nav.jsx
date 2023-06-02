@@ -44,7 +44,7 @@ export default function Nav(){
 
                 {toggleDropDown && (
                     <div className='flex relative'>
-                        <ul className='sm:hidden dropdown'>
+                        <ul className='sm:hidden dropdown ring-1 ring-zinc-300'>
                             <li>
                                 <Link href="/home" className='dropdown_link text-zinc-700 font-semibold'>Home</Link>
                             </li>

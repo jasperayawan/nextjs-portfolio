@@ -18,3 +18,9 @@
 .__title{
     @apply text-3xl font-bold;
 }
+.__sbmt{
+    @apply font-semibold text-zinc-300 bg-slate-900 py-2 rounded-md;
+}
+.__cntct{
+    @apply font-semibold text-zinc-300 bg-slate-900;
+}

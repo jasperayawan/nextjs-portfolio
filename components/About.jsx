@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function About(){
     return(
-        <section className="min-h-[80vh] pb-10">
+        <section className="min-h-[80vh] py-10">
             <h1 className='__title mb-4 text-center'>About</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div className='flex justify-center items-center'>
