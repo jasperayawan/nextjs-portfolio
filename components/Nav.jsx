@@ -32,17 +32,17 @@ export default function Nav() {
       </div>
       <ul className="hidden md:flex gap-4">
         <li>
-          <Link href="/about" className="text-zinc-500 font-semibold">
+          <Link href="/about" className="text-zinc-500 font-semibold hover:text-zinc-800">
             About
           </Link>
         </li>
         <li>
-          <Link href="/project" className="text-zinc-500 font-semibold">
+          <Link href="/project" className="text-zinc-500 font-semibold hover:text-zinc-800">
             Projects
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="text-zinc-500 font-semibold">
+          <Link href="/contact" className="text-zinc-500 font-semibold hover:text-zinc-800">
             Contact
           </Link>
         </li>

@@ -14,10 +14,10 @@ export default function About(){
 
                 <div className='flex justify-end items-center'>
                     <Image 
-                        src="/assets/images/jasko.jpg"
+                        src="/assets/images/jasko.jpg"s
                         width={400}
                         height={400}
-                        className='rounded-full'
+                        className='lg:rotate-12 rounded-md'
                         alt='about profile'/>
                 </div>
 
