@@ -16,7 +16,7 @@ export default function Project(){
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden'>
                         <Link href='https://jasperayawan.github.io/eLTECH/'>
                             <Image 
                                 src='/assets/images/eltech.png'
@@ -26,13 +26,13 @@ export default function Project(){
                             />
                         </Link>
                         <div className='p-2'>
-                        <h2>E-Learning Tech</h2>
+                        <h2 className='font-semibold text-slate-300'>E-Learning Tech</h2>
                         <p className='text-zinc-400'>Create an eLearning website for society to maintain their education 
                             through online teaching, which contains a variety of courses.</p>
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden'>
                         <Link href='https://instagram-clone-byjasper.netlify.app/'>
                             <Image 
                                 src='/assets/images/insta.png'
@@ -42,14 +42,14 @@ export default function Project(){
                             />
                         </Link>
                         <div className='p-2'>
-                        <h2>Instagram UI clone</h2>
+                        <h2 className='font-semibold text-slate-300'>Instagram UI clone</h2>
                         <p className='text-zinc-400'> 
                             I clone instagram To further enhance frontend Skills using Reactjs 
                         </p>
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg'>
+                    <div className='flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden'>
                         <Link href='https://jasperayawan.github.io/miniP2/'>
                             <Image 
                                 src='/assets/images/harvesthub.png'
@@ -59,7 +59,7 @@ export default function Project(){
                             />
                         </Link>
                         <div className='p-2'>
-                        <h2>Harvest Hub</h2>
+                        <h2 className='font-semibold text-slate-300'>Harvest Hub</h2>
                         <p className='text-zinc-400'>To provide an online platform for farmers to sell their products directly to consumers</p>
                         </div>
                     </div>

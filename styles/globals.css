@@ -24,3 +24,13 @@
 .__cntct{
     @apply font-semibold text-zinc-300 bg-slate-900;
 }
+
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  

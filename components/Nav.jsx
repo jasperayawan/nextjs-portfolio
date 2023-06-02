@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { VscVerifiedFilled } from 'react-icons/vsc'
+import Clock from 'react-live-clock';
 
 export default function Nav(){
     const [toggleDropDown, setToggleDropDown] = useState(false)
@@ -21,11 +22,14 @@ export default function Nav(){
                 />
                 <VscVerifiedFilled />
             </Link>
-
-            <ul className='hidden md:flex gap-4'>
-                <li>
-                    <Link href="/home" className='text-zinc-500 font-semibold'>Home</Link>
-                </li>
+            <div className='bg-slate-800'>
+        <Clock
+            format={'h:mm:ssa'}
+            style={{fontSize: '1.5em'}}
+            ticking={true}
+            className='text-green-400 px-5' />
+      </div>
+            <ul className='hidden md:flex gap-4'>   
                 <li>
                     <Link href="/about" className='text-zinc-500 font-semibold'>About</Link>
                 </li>
@@ -45,9 +49,6 @@ export default function Nav(){
                 {toggleDropDown && (
                     <div className='flex relative'>
                         <ul className='sm:hidden dropdown ring-1 ring-zinc-300'>
-                            <li>
-                                <Link href="/home" className='dropdown_link text-zinc-700 font-semibold'>Home</Link>
-                            </li>
                             <li>
                                 <Link href="/about" className='dropdown_link text-zinc-700 font-semibold'>About</Link>
                             </li>
