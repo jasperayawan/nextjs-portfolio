@@ -3,10 +3,17 @@ import About from '@components/About'
 import Contact from '@components/Contact'
 import Project from '@components/Project'
 import { AiFillFacebook, AiFillInstagram, AiFillGithub } from 'react-icons/ai'
+import { motion, useScroll } from "framer-motion"
 
 export default function Home(){
+  const { scrollYProgress } = useScroll();
+
   return(
-    <main className="lg:max-w-6xl mx-auto px-4">
+    <>
+    <motion.div 
+      className="fixed top-0 left-0 right-0 h-[8px] z-50 bg-slate-950 origin-[0%]"
+      style={{ scaleX: scrollYProgress }} />
+      <main className="lg:max-w-6xl mx-auto px-4">
       <section className="flex flex-col justify-center items-start gap-4 min-h-[80vh]">
       <h2 className='text-slate-700 font-bold text-2xl flex gap-2'>Hi, I'm Jasper</h2>
         <h1 className="__txtnm text-4xl sm:text-5xl">Full Stack Developer</h1>
@@ -28,5 +35,6 @@ export default function Home(){
       <Project/>
       <Contact/>
     </main>
+    </>
   )
 }

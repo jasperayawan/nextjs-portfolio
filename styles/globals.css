@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Pacifico&family=Sacramento&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,12 +27,8 @@
     @apply font-semibold text-zinc-300 bg-slate-900;
 }
 
-@keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  
+.__dotClock{
+    font-family: 'DotGothic16', sans-serif;
+}   
+
+
