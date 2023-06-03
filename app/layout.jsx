@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
       <Head>
         <title>{metadata.title}</title>
         <meta name='descrition' content={metadata.description}/>

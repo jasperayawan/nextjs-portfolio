@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Project(){
     return(
         <section>
-            <div className="flex flex-col gap-10 min-h-screen justify-center">
+            <div className="flex flex-col gap-10 min-h-screen justify-center" id='project' >
                 <div className="flex flex-col gap-3 max-w-2xl">
                     <span className="uppercase">My work</span>
                     <h1 className="__title">Projects</h1>

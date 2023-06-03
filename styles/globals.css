@@ -27,8 +27,7 @@
     @apply font-semibold text-zinc-300 bg-slate-900;
 }
 
-.__dotClock{
-    font-family: 'DotGothic16', sans-serif;
-}   
 
-
+html{
+    scroll-behavior: smooth;
+}
