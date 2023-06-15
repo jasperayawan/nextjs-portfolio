@@ -140,6 +140,30 @@ export default function Project() {
               </div>
             </div>
           </div>
+
+          <div className="flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden">
+            <Link href="https://bayangan.fun/">
+              <Image
+                src="/assets/images/bayngan.png"
+                alt="E-Learning website"
+                width={400}
+                height={200}
+              />
+            </Link>
+            <div className="p-2 flex flex-col gap-2">
+              <h2 className="font-semibold text-slate-300">Hotel Booking System</h2>
+              <p className="text-zinc-400">
+                This is our capstone project at kodego and we've got a best in capstone in this project.
+              </p>
+              <div className="flex gap-2 flex-wrap">
+                <span className="bg-red-600 px-2 text-slate-200">Laravel API</span>
+                <span className="bg-violet-700 px-2">Bootstrap</span>
+                <span className="bg-green-500 px-2 text-slate-800">Takt to API</span>
+                <span className="bg-blue-600 px-2 text-slate-100">Stripe</span>
+                <span className="bg-blue-500 px-2 text-slate-950">Paypal</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
