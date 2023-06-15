@@ -1,6 +1,8 @@
 import Link from 'next/link'
 
 export default function Footer(){
+    const currentDate = new Date().getFullYear();
+
     return(
         <footer className='flex flex-col md:flex-row md:justify-between items-center max-w-5xl mx-auto py-4 border-t-[1px]'>
             <div>
@@ -17,7 +19,7 @@ export default function Footer(){
                 </ul>
             </div>
             <div>
-                 © 2023 Jasper Ayawan. All rights reserved.
+                 © {currentDate} Jasper Ayawan. All rights reserved.
             </div>
         </footer>
     )
