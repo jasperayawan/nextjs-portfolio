@@ -7,6 +7,7 @@ import { motion, useScroll } from "framer-motion"
 import { useState, useEffect } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css'
+import Link from 'next/link'
 
 
 export default function Home(){
@@ -43,9 +44,9 @@ export default function Home(){
           passion for crafting intuitive and visually appealing user interfaces. 
           Through this portfolio, I invite you to delve into my journey, projects,
            and expertise in the world of UI development.</p>
-           <button className='__cntct rounded-md py-2 px-5' type='button'>
+           <Link href="#contact" className='__cntct rounded-md py-2 px-5' type='button'>
             Contact me
-           </button>
+           </Link>
           <div className='flex gap-4'>
             <AiFillFacebook className='text-2xl'/>
             <AiFillInstagram className='text-2xl'/>
