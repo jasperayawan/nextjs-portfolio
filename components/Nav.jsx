@@ -38,6 +38,11 @@ export default function Nav() {
             Contact
           </Link>
         </li>
+        <li>
+          <Link href="https://www.linkedin.com/in/jasper-ayawan-7abb47232/?originalSubdomain=ph" scroll={false} className="text-zinc-500 font-semibold hover:text-zinc-800">
+            Linked
+          </Link>
+        </li>
       </ul>
 
       {/**modile nav */}
