@@ -39,7 +39,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="https://www.linkedin.com/in/jasper-ayawan-7abb47232/?originalSubdomain=ph" scroll={false} className="text-zinc-500 font-semibold hover:text-zinc-800">
+          <Link href="https://www.linkedin.com/in/jasper-ayawan-7abb47232/?originalSubdomain=ph" scroll={false} className="text-white font-semibold hover:text-zinc-800 bg-blue-500 px-3 rounded-md py-1">
             Linked
           </Link>
         </li>
