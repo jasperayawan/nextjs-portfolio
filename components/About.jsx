@@ -17,7 +17,7 @@ export default function About(){
                         src="/assets/images/jasko.jpg"s
                         width={400}
                         height={400}
-                        className='lg:rotate-12 rounded-md'
+                        className='rounded-full'
                         alt='about profile'/>
                 </div>
 
