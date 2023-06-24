@@ -164,6 +164,50 @@ export default function Project() {
               </div>
             </div>
           </div>
+
+          {/* <div className="flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden">
+            <Link href="https://justkeep-yournotes.netlify.app/">
+              <Image
+                src="/assets/images/ecommercejs.png"
+                alt="E-Learning website"
+                width={400}
+                height={200}
+              />
+            </Link>
+            <div className="p-2 flex flex-col gap-2">
+              <h2 className="font-semibold text-slate-300">Ecommerce app UI</h2>
+              <p className="text-zinc-400">
+               Juice & fuits ecommerce app this is just a UI 
+              </p>
+              <div className="flex gap-2 flex-wrap">
+                <span className="bg-blue-500 px-2 text-slate-200">Reactjs</span>
+                <span className="bg-blue-700 px-2">Tailwindcss</span>
+              </div>
+            </div>
+          </div> */}
+
+          <div className="flex flex-col gap-2 relative bg-slate-950 text-zinc-300 shadow-lg rounded-md overflow-hidden">
+            <Link href="https://mngementsystem.000webhostapp.com/">
+              <Image
+                src="/assets/images/mngmentsystem.png"
+                alt="E-Learning website"
+                width={400}
+                height={200}
+              />
+            </Link>
+            <div className="p-2 flex flex-col gap-2">
+              <h2 className="font-semibold text-slate-300">Employee management system CRUD</h2>
+              <p className="text-zinc-400">
+                This is an employee management system where we can manage our employees.
+              </p>
+              <div className="flex gap-2 flex-wrap">
+                <span className="bg-red-600 px-2 text-slate-200">Laravel API</span>
+                <span className="bg-violet-700 px-2">Bootstrap</span>
+                <span className="bg-green-500 px-2 text-slate-800">AJAX</span>
+                <span className="bg-blue-600 px-2 text-slate-100">JQUERY</span> 
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
